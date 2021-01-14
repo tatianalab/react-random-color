@@ -47,9 +47,15 @@ class Random extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="card">
+        <p className={this.isLight() ? 'white' : 'black'}>
+          I made this Random Color Generator...check it out!
+         </p>
         <h1 className={this.isLight() ? 'white' : 'black'}>
-          Your color is: {this.formatColor(this.state.color)} !
+          Your color is:
+          <br />
+          <br />
+           {this.formatColor(this.state.color)}
          </h1>
          <div>
          <Button

@@ -6,7 +6,7 @@ class Button extends React.Component {
       <button
         onClick = {this.props.onClick}
         className={ this.props.light ? 'light-button' : 'dark-button' }>
-        Refresh
+        New Color
       </button>
     );
   }

@@ -1,8 +1,7 @@
-
-
 html, body {
   margin: 0;
   height: 100%;
+  font-size:16px
 }
 
 body {
@@ -19,7 +18,9 @@ body {
 }
 
 #root div {
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
+  padding:3%;
 }
 
 #root div div {
@@ -32,8 +33,11 @@ body {
 }
 
 h1, h2 {
-  margin-left: 5%;
-  margin-right: 5%;
+  // margin:15% 5% 5% 5%;
+}
+
+.card{
+  border:5px solid white;
 }
 
 button {
@@ -41,8 +45,7 @@ button {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  font-size: 2rem;
   font-family: 'Oxygen', sans-serif;
   letter-spacing: 2px;
 }
